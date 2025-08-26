@@ -1,6 +1,6 @@
 # SSR Error Boundaries in Next 15
 
-This project shows different scenarios of Error Boundaries interacting with Server Components in Next 15. It's main purpose is to compare it to the behavior in Next 14.
+This project shows different scenarios of Error Boundaries interacting with Server Components in Next 15. It's main purpose is to compare it to [the behavior in Next 14](https://github.com/jandriescher/ssr-error-boundaries-next-14).
 
 ## Run
 
