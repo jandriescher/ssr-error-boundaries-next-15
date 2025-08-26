@@ -1,7 +1,7 @@
 import React from 'react';
 import ThrowingServerComponent from '../../components/ThrowingServerComponent';
 import ErrorBoundary from '../../components/ErrorBoundary';
-import { RandomContextProvider } from '../context/randomContext';
+import { RandomContextProvider } from '../../context/randomContext';
 import HealthyServerComponent from '../../components/HealthyServerComponent';
 
 export const dynamic = 'force-dynamic';

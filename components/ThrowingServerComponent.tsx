@@ -1,5 +1,5 @@
 import { JSX } from "react";
-import { somethingThatThrows } from "../app/shared/somethingThatThrows";
+import { somethingThatThrows } from "../shared/somethingThatThrows";
 
 export default async function ThrowingServerComponent(): Promise<JSX.Element> {
   somethingThatThrows();

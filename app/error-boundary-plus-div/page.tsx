@@ -10,10 +10,10 @@ const Page = () => {
   return (
     <>
       <h2 className="text-xl font-bold">Error Boundary With Div Page</h2>
-      <HealthyServerComponent />
       <span>
         This page renders a healthy component and a throwing component wrapped in an error boundary with a fallback component and a plain div.
       </span>
+      <HealthyServerComponent />
       <ErrorBoundary fallback={<FallbackComponent />}>
         <div>
           <ThrowingServerComponent />
